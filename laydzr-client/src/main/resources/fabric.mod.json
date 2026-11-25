@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "laydzrclient",
+  "version": "${version}",
+  "name": "Laydzr Client",
+  "description": "Laydzr Client: blue HUD mods, Modrinth browser and a Spotify music bar.",
+  "authors": ["laydzr"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.laydzr.client.LaydzrClient"] },
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
